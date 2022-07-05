@@ -164,27 +164,43 @@
   </section>
   <!--ends equipo-->
 
-  <!--starts novedades-->
+  <!-- starts novedades - cards -->
   <section class="py-5">
     <div class="container-fluid w-75 py-5">
       <h1 class="py-5">Novedades</h1>
         <div class="row">
-          <article class="col-sm-12 col-md-12 col-lg-4">
-            <img src="img/news3.jpg" alt="imagen obra uno" class="w-100 rounded-3">
-            <h3 class="py-3">Cine y Teatro</h3>
-          </article>
-          <article class="col-sm-12 col-md-12 col-lg-4">
-            <img src="img/news4.jpg" alt="imagen obra uno" class="w-100 rounded-3">
-            <h3 class="py-3">Workshops</h3>
-          </article>
-          <article class="col-sm-12 col-md-12 col-lg-4">
-            <img src="img/news1.jpg" alt="imagen obra uno" class="w-100 rounded-3">
-            <h3 class="py-3">Muestras</h3>
-          </article>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="img/news3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Cine y Teatro</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/news4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Worshops</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/news1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Muestras</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                </div>
+              </div>
+            </div>
         </div>
-    </div>
+    </div> 
   </section>
-  <!--ends novedades-->
+  <!-- ends novedades - cards -->
 
   <!--starts contacto-->
   <section class="py-5" id="contacto">
@@ -193,7 +209,7 @@
       <div class="row">
         <!--starts maps-->
         <article class="col-sm-12 col-md-12 col-lg-4">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.971988266588!2d-64.2220391851167!3d-31.359752200652245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993e3ea189f7%3A0xe7f791faaee0e414!2sRoberto%20Cayol%203520%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1sen!2snl!4v1653500579115!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.971988266588!2d-64.2220391851167!3d-31.359752200652245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993e3ea189f7%3A0xe7f791faaee0e414!2sRoberto%20Cayol%203520%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1sen!2snl!4v1653500579115!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </article>
         <!--ends maps-->
         <!--starts form-->
@@ -324,6 +340,9 @@
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- js boostrap.min.js-->
+    <script src="js/boostrap.min.js"></script>
 </body>
 </html>
 
