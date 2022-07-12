@@ -13,10 +13,12 @@ p{
 
 
 h1{
-	text-align: center;
-	font-size: 2rem;
+	@include texto(2em,center,white)
 }
 
+h2{
+	@include texto(2em,center,black)
+}
 
 h3{
 	text-align: center;

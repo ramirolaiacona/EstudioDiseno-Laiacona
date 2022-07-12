@@ -1,0 +1,46 @@
+// extends
+
+.btn-info{
+	width: 100px;
+	height: 30px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:hover{
+		background-color: #f5f5f7;
+		cursor: pointer;
+	}
+}
+
+.btn-enviar{
+	@extend .btn-info;
+	border-radius: 4px;
+	background-color: #f5f5f7;
+	
+}
+
+// mixins - utilizados en _fonts h1 - //
+
+@mixin texto($size,$text-align,$color){
+	font-size: $size;
+	text-align: $text-align;
+	color: $color;
+}
+
+
+// maps - utilizados en _common.scss - //
+
+$paleta:(
+	'uno': #f5f5f7,
+    'dos': #333333,
+    'tres':black,
+    'cuatro':#505050,
+	);
+
+
+
+
+
+
+

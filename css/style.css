@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.btn-info, .btn-enviar {
+  width: 100px;
+  height: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-info:hover, .btn-enviar:hover {
+    background-color: #f5f5f7;
+    cursor: pointer; }
+
+.btn-enviar {
+  border-radius: 4px;
+  background-color: #f5f5f7; }
+
 * {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -9,8 +24,14 @@ p {
   font-size: 0.8rem; }
 
 h1 {
+  font-size: 2em;
   text-align: center;
-  font-size: 2rem; }
+  color: white; }
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: black; }
 
 h3 {
   text-align: center;
